@@ -13,8 +13,8 @@ class StudentsController < ApplicationController
 
   def create
     @student = Student.new(student_params(:first_name, :last_name))
-    @student.save
-    redirect_to @student
+    redirect_to @student and return if @student.save
+    redirect_to new_student_path
   end
 
   def update
