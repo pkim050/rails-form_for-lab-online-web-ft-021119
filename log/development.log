@@ -123,3 +123,10 @@ Processing by StudentsController#new as HTML
 Completed 200 OK in 350ms (Views: 343.6ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/students/new" for 71.95.193.204 at 2019-04-25 15:02:36 +0000
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
