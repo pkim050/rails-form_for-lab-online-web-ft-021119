@@ -12,5 +12,5 @@ class StudentsController < ApplicationController
   end
 
   private
-  
+
 end
